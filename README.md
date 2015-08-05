@@ -17,14 +17,14 @@ before you use this script.
 
 ## Instructions
 
-1.  Download the ESXi ISO can copy it into the same folder as this script. It
+1.  Download the ESXi ISO and copy it into the same folder as this script. It
     will have a long name with a version number like
     `VMware-VMvisor-Installer-6.0.0-2494585.x86_64.iso`. Rename it to `esxi.iso`
     so the script can find it.
 
 2.  Run `make devices`
 
-3.  Insert your USB stick. You'll see a new device appear in step 3.
+3.  Insert your USB stick. You'll see a new device appear in step 4.
 
 4.  Run `make devices`
 
@@ -37,4 +37,5 @@ before you use this script.
 
 7.  Pop the USB stick into the computer you want to vmware-ify and restart it.
 
-Depending on how fast your USB stick is, step 6 make take awhile.
+Depending on how fast your USB stick is, step 6 make take awhile. On my computer
+it took around a minute and a half.
